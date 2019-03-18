@@ -5,7 +5,7 @@ import { IconContext, DefaultContext } from './iconContext';
 export interface IconTree {
   tag: string;
   attr: {[key: string]: string};
-  child: IconTree[];
+  child?: IconTree[];
 }
 
 
